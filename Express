@@ -1,0 +1,29 @@
+Download:
+
+  nodejs.org
+  inside the folder
+    node -v  (package.json)
+    npm init (Entry point index.js/testtut.js)
+    Open the package.json file 
+      enter "private" : true under version
+    
+  Install express
+    npm install --save express
+    npm install --save express-handlebars
+    
+  Open the file (index.js/testtut.js)
+    Require express
+    Set the port (app.set)
+    Define routes
+      / - most basic URL 
+    res.send 
+      Displays the msg in the browser page
+    app.listen - to mention where the web application has to listen for the instructions
+    console.log - to print statments to the log
+    app.get - path,function
+      req - HTTP request
+      
+    app.use - middlware
+      
+      
+    
